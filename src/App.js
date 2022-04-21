@@ -11,6 +11,12 @@ const App = () => {
         mockupImg={assets.homeHero}
         banner="banner"
       />
+      <SectionWrapper
+        title="Smart User Interface Marketplace"
+        description="Experience a modern user interface market place application that can be used for both Android and iOS"
+        mockupImg={assets.homeCards}
+        reverse 
+      />
     </>
   );
 };
