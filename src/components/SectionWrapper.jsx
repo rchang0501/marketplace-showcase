@@ -53,7 +53,8 @@ const SectionWrapper = ({
             src={mockupImg}
             alt="mockup"
             className={`${styles.img} ${
-              reverse ? "fadeLeftMini" : "fadeRightMini"}`}
+              reverse ? "fadeLeftMini" : "fadeRightMini"
+            }`}
           />
         </div>
       </div>
