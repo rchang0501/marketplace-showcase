@@ -1,5 +1,6 @@
 import { Download, Features, SectionWrapper } from "./components";
-import assets from './assets'
+import assets from "./assets";
+import styles from "./styles/Global";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
         title="Smart User Interface Marketplace"
         description="Experience a modern user interface market place application that can be used for both Android and iOS"
         mockupImg={assets.homeCards}
-        reverse 
+        reverse
       />
       <Features />
       <SectionWrapper
@@ -31,6 +32,11 @@ const App = () => {
         banner="banner02"
       />
       <Download />
+      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
+        <p className={`${styles.pText} ${styles.whiteText}`}>
+          Made by <span className="bold">Ryan Chang</span>
+        </p>
+      </div>
     </>
   );
 };
